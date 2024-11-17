@@ -1,0 +1,39 @@
+.wrapper {
+  display:grid;
+  grid-template-columns: 200px 50px 100px;
+   grid-template-rows: 50px 50px 50px;
+}
+
+.wrapper > * {
+  border: 1px black solid;
+}
+
+.item1 {
+background-color: aquamarine;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
+.item2 {
+background-color: yellow;
+}
+
+.item3 {
+background-color: aqua;
+grid-row-start: 2;
+grid-row-end: 4;
+}
+
+.item4 {
+background-color: mediumpurple;
+grid-column-start: 2;
+grid-column-end: 4;
+}
+
+.item5 {
+background-color: lime;
+}
+
+.item6 {
+background-color: orangered;
+}
